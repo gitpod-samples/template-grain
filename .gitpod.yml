@@ -1,0 +1,9 @@
+image:
+  file: .gitpod.Dockerfile
+tasks:
+  - command: |
+      grain --version
+
+vscode:
+  extensions:
+    - grain-lang.vscode-grain
